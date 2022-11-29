@@ -1,0 +1,77 @@
+/*dar estilo al body para pegar el footer abajo y que no tape la pantalla*/
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  padding-bottom: 120px;
+}
+/*---------*/
+img {
+  max-width: 100%;
+}
+
+.App {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #7D8B8C;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #7D8B8C;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #7D8B8C;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #7D8B8C;
+}
+
+p {
+  text-align: justify;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 920px) {
+  .holder {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .columnas {
+    display: block;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  nav ul li a {
+    font-size: 10px;
+  }
+
+   
+}

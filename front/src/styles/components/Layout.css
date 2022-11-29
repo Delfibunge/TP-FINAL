@@ -1,0 +1,121 @@
+header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+ }
+.encabezado {
+    background-color: #7D8B8C;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: 200;
+    display: block;
+  }
+  .encabezado p{
+    text-align: center;
+}
+.HeaderNav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#LOGO {
+  margin-left: -20px;
+}
+
+#Nav {
+  width: 100%;
+   margin-left: 50px;
+   margin-top: -20px;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 300;
+    display: flex;
+    }
+
+nav ul li a:hover {
+    font-weight: 400;
+}
+
+#btnTienda {
+  color:#4f5858;
+  position: absolute;
+  right: 30px;
+  top: auto;
+}
+#boton {
+  background-color: white;
+  border: solid #4f5858 1px;
+}
+#boton a {
+  color:#4f5858;
+  background-color: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#boton:hover {
+  background-color:#8c989a;
+  border:none;
+}
+#boton:hover a {
+  color: white;
+}
+#NavContainer {
+    display: flex;
+    flex-grow: 0.9;
+    padding-left: 80px;
+}
+footer {
+    position: absolute; /*necesario para pegarlo al pie de página*/
+    height: 100px;    /*necesario para pegarlo al pie de página*/
+    bottom: 0;         /*necesario para pegarlo al pie de página*/
+    width: 100%;       /*necesario para pegarlo al pie de página*/
+    background-color:  #647274;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.icono {
+  padding-top: 10px;
+}
+.icono a {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.icono a:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+/* Media Queries */
+@media screen and (max-width: 920px) {
+ #Nav {
+ display: block;
+ margin-left: 0;
+ text-align: center;
+  }
+ #NavContainer {
+  display: flex;
+  padding-left: 0;
+ }
+  
+  #btnTienda {
+    color:#4f5858;
+  }
+  #boton {
+      display: block;
+  }
+  #boton a {
+    font-weight: 300;
+    font-size: 12px;
+  }
+}

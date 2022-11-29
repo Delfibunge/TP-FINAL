@@ -1,0 +1,41 @@
+.servicios {
+    display: block;
+
+}
+.columnasprodlistos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.imgprodlistos {
+    width: fit-content;
+    margin-left: 30px;
+}
+.columnasprodamedida {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+.imgprodamedida {
+    width: fit-content;
+    margin-right: 30px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .servicios {
+        display: block;
+    }
+    .columnasprodlistos {
+        display: block;
+        width: 100%;
+    }
+    .columnasprodamedida { display: block;
+    width:100%;}
+    .imgprodamedida, .imgprodlistos {
+        margin: 0 auto;
+    }
+}

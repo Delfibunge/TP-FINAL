@@ -1,0 +1,32 @@
+.productos {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.columnasProductos {
+    display: flex;
+    width: 100%;
+}
+
+.containerImg {
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+ .descripcion {
+    padding-left: 20px;
+ }
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .columnasProductos {
+        display: block;
+        padding: 0;
+    }
+
+  .containerImg {
+        padding: 0;
+        width: 100%;
+     }
+
+}
