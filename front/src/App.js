@@ -1,7 +1,7 @@
 import './App.css';
 import '../src/styles/components/Layout.css';
 
-import { HashRouter as Router, BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
