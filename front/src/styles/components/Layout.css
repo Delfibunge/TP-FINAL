@@ -118,4 +118,8 @@ footer {
     font-weight: 300;
     font-size: 12px;
   }
+  footer {
+    height: 120px;
+    padding: 10px;
+  }
 }
