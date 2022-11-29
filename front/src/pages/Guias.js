@@ -13,15 +13,15 @@ function Guias(props) {
                 <div className="menuguia">
                     <nav className="navguia">
                         <ul>
-                            <li><NavLink to="/Guias/Cortinas" className={({ isActive }) => isActive ? "activo1" : undefined}>Cortinas</NavLink></li>
-                            <li><NavLink to="/Guias/Almohadones" className={({ isActive }) => isActive ? "activo1" : undefined}>Almohadones</NavLink></li>
-                            <li><NavLink to="/Guias/Colores" className={({ isActive }) => isActive ? "activo1" : undefined}>Uso del color</NavLink></li>
-                            <li><NavLink to="/Guias/Cuidados" className={({ isActive }) => isActive ? "activo1" : undefined}>Cuidados</NavLink></li>
+                            <li><NavLink to="Cortinas" className={({ isActive }) => isActive ? "activo1" : undefined}>Cortinas</NavLink></li>
+                            <li><NavLink to="Almohadones" className={({ isActive }) => isActive ? "activo1" : undefined}>Almohadones</NavLink></li>
+                            <li><NavLink to="Colores" className={({ isActive }) => isActive ? "activo1" : undefined}>Uso del color</NavLink></li>
+                            <li><NavLink to="Cuidados" className={({ isActive }) => isActive ? "activo1" : undefined}>Cuidados</NavLink></li>
                         </ul>
                     </nav>
                 </div>
                 <Routes>
-                    <Route path="/" element={<Index />} />
+                    <Route path="" element={<Index />} />
                     <Route path="Cuidados" element={<Cuidados />} />
                     <Route path="Almohadones" element={<Almohadones />} />
                     <Route path="Colores" element={<Colores />} />

@@ -1,7 +1,7 @@
 import './App.css';
 import '../src/styles/components/Layout.css';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
@@ -16,23 +16,23 @@ import Contacto from './pages/Contacto';
 
 function App() {
   return (
+      <Router hashType="noslash">
     <div className="App">
       <div className='HeaderNav'>
       <Header />
         <Nav />
       </div>
-      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="" element={<HomePage />} />
           <Route path="SobreMi" element={<SobreMi />} />
           <Route path="Servicios" element={<Servicios />} />
           <Route path="Productos" element={<Productos />} />
           <Route path="Contacto" element={<Contacto />} />
           <Route path="Guias/*" element={<Guias />} />
         </Routes>
-        </BrowserRouter>
       <Footer />
     </div>
+        </Router>
   );
 }
 

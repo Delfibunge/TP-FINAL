@@ -1,4 +1,4 @@
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import '../../styles/components/Layout.css';
 import React from 'react';
@@ -29,7 +29,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div id= "Nav">
-          <NavbarBrand id="LOGO" href="/">
+          <NavbarBrand tag={Link} id="LOGO" to="/">
             <img src="/imagenes/LOGO.png" width="250" alt="Delfina Bunge Deco"/>
           </NavbarBrand>
         <Navbar id="NavContainer" color="white" light expand="md">
@@ -37,22 +37,22 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">Inicio</NavLink>
+                <NavLink tag={ Link }to="">Inicio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/SobreMi">Sobre Mi</NavLink>
+                <NavLink tag={ Link }to="SobreMi">Sobre Mi</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Servicios">Servicios</NavLink>
+                <NavLink tag={ Link }to="Servicios">Servicios</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Guias">Guías y tips</NavLink>
+                <NavLink tag={ Link }to="Guias">Guías y tips</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Productos">Productos</NavLink>
+                <NavLink tag={ Link }to="Productos">Productos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Contacto">Contacto</NavLink>
+                <NavLink tag={ Link }to="Contacto">Contacto</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
