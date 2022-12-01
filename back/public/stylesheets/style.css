@@ -55,3 +55,8 @@ h2 {
 :hover.btn{
   background-color:#4f5858;
 }
+
+.formproductos textarea {
+  resize: none;
+  height: 150px;
+}
