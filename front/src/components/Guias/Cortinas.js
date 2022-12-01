@@ -14,9 +14,9 @@ const Cortinas = (props) => {
                         <h3>Como elegir la cortina adecuada</h3>
                         <p>Cuando se trata de elegir una cortina las opciones pueden ser muchas. Lo primero que debemos pensar es para  que queremos la cortina.</p>
                         <ul>
-                            <li>Si es para restringir la luz: lo mejor será un terciopelo, pana o brocado. Lo más moderno en este sentido son los blackout, telas cuya composición, con un lado vinílico, impiden el paso de la luz.</li>
-                            <li>Si buscamos proteger nuestra privacidad: las mejores telas a utilizar son el algodón muy ligero, el lino y la gasa.</li>
-                            <li>Una combinación interesante es utilizar una cortina liviana detrás de otra con más cuerpo, para disponer alternativamente de una u otra dependiendo de la necesidad de oscuridad o luz, pero siempre resguardando la privacidad.</li>
+                            <li><p>Si es para restringir la luz: lo mejor será un terciopelo, pana o brocado. Lo más moderno en este sentido son los blackout, telas cuya composición, con un lado vinílico, impiden el paso de la luz.</p></li>
+                            <li><p>Si buscamos proteger nuestra privacidad: las mejores telas a utilizar son el algodón muy ligero, el lino y la gasa.</p></li>
+                            <li><p>Una combinación interesante es utilizar una cortina liviana detrás de otra con más cuerpo, para disponer alternativamente de una u otra dependiendo de la necesidad de oscuridad o luz, pero siempre resguardando la privacidad.</p></li>
                         </ul>
                         <h3>Como medir la ventana</h3>
                         <p>A la hora de encargar una cortina las medidas que se le pasan al proveedor son las de la ventana y el riel, no se le pasa la medida que creemos que tiene que tener la cortina. Luego, dependiendo de lo que el cliente elija se le dará arrastre, vuelo, etc. </p>
